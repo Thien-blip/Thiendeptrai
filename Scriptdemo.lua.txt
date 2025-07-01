@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=104250303121961",
+       Image = "http://www.roblox.com/asset/?id="104434763017426",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -46,12 +46,5 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "ThunderZ Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/GaG/Main.lua"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "NatHub",
-    Callback = function()
-	 loadstring(game:HttpGet("https://raw.githubusercontent.com/idoltoptopvn/Growagardens/refs/heads/main/0625b970ed9eb23c6612e762b5a1c4c1.txt"))() 
   end
   })
