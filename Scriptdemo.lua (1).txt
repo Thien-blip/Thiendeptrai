@@ -1,0 +1,49 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Yeahba",
+         Animation = "Youtube: Yeahba"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "Key System",
+        Description = "Yeahba",
+        KeyLink = "https://pastebin.com/2g0es8Qd",
+        Keys = {"2234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "script đang chạy",
+       Incorrectkey = "key đã sai",
+       CopyKeyLink = "đã sao chép"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=104434763017426",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "GROW A GARDEN"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "NO LAG HUB",
+    Callback = function()
+	  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "ThundarZ Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/GaG/Main.lua"))()
+  end
+  })
