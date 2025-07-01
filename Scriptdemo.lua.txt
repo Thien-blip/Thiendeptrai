@@ -8,8 +8,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Key = {
         KeySystem = true,
         Title = "Key System",
-        Description = "key is 2234",
-        KeyLink = "key is 2234",
+        Description = "Get key",
+        KeyLink = "https://pastebin.com/2g0es8Qd",
         Keys = {"2234"},
         Notifi = {
         Notifications = true,
@@ -39,5 +39,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "NO LAG HUB",
     Callback = function()
 	  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "ThunderZ Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/GaG/Main.lua"))()
   end
   })
