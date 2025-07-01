@@ -2,26 +2,26 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "THIENDEPTRAI",
+         Title = "Yeahba",
          Animation = "Youtube: yeahba"
          },
         Key = {
         KeySystem = true,
         Title = "Key System",
-        Description = "Get key",
+        Description = "Key",
         KeyLink = "https://pastebin.com/2g0es8Qd",
         Keys = {"2234"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
+        CorrectKey = "script đang chạy",
+       Incorrectkey = "key đã sai",
+       CopyKeyLink = "đã sao chép"
       }
     }
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=104250303121961",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -46,5 +46,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "ThunderZ Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/GaG/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "NatHub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/idoltoptopvn/Growagardens/refs/heads/main/0625b970ed9eb23c6612e762b5a1c4c1.txt"))() 
   end
   })
