@@ -32,6 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "GROW A GARDEN"})
      
+     local Tab2o = MakeTab({Name = "INK GAME"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -47,3 +48,26 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/GaG/Main.lua"))()
   end
   })
+  
+  AddButton(Tab2o, {
+     Name = "script 1",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/InkGame"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "script 2",
+    Callback = function()
+	loadstring(game:HttpGet("https://pastefy.app/ULaWpxKm/raw"))()  
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "key script 2 Subscribe to yeahba channel to get key",
+    Callback = function()
+	
+  end
+  })
+  
+  
