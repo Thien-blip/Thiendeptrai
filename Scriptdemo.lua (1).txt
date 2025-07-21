@@ -9,19 +9,19 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Key System",
         Description = "Yeahba",
-        KeyLink = "https://pastebin.com/2g0es8Qd",
-        Keys = {"2234"},
+        KeyLink = "Team 10nn146 join today",
+        Keys = {"Team 10nn146 join today"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "script đang chạy",
-       Incorrectkey = "key đã sai",
-       CopyKeyLink = "đã sao chép"
+        CorrectKey = "Team 10nn146 join today",
+       Incorrectkey = "Team 10nn146 join today",
+       CopyKeyLink = "Team 10nn146 join today"
       }
     }
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=104434763017426",
+       Image = "http://www.roblox.com/asset/?id=102944823825212",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,44 +30,150 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "GROW A GARDEN"})
-     
-     local Tab2o = MakeTab({Name = "INK GAME"})
+     local Tab1o = MakeTab({Name = "GAME"})
+    
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "NO LAG HUB",
+     Name = "jumpscare",
     Callback = function()
-	  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+	--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+for i,v in pairs(game.Players:GetPlayers()) do
+   if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+    spawn(function()
+     local newgui = Instance.new("ScreenGui",v.PlayerGui)
+     newgui.Name = "Screamer"
+     local newimage = Instance.new("ImageLabel",newgui)
+     newimage.Image = "http://www.roblox.com/asset/?id=102944823825212"
+     newimage.Size = UDim2.new(1,1,1,1)
+     local s = Instance.new("Sound",newgui)
+     s.SoundId = "rbxassetid://6018028320"
+     s.Volume = 10000000000
+     s.Looped = true
+     s:Play()
+     print("Screamed "..v.Name)
+     while wait(9.4) do
+ 
+      newimage.Parent:Destroy()
+ 
+     endlocal ID = 102944823825212
+ local Skybox = true
+ local particle = no
+ 
+-- DO NOT CHANGE BELOW. UNLESS YOU KNOW WHAT YOU'RE DOING.
+ 
+for i,v in pairs (game.Workspace:GetChildren()) do
+        if v:IsA("Part") then
+            local decal1 =Instance.new("Decal")
+            local decal2 =Instance.new("Decal")
+            local decal3 =Instance.new("Decal")
+            local decal4 =Instance.new("Decal")
+            local decal5 =Instance.new("Decal")
+            local decal6 =Instance.new("Decal")
+            decal1.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal3.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal4.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal5.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal6.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal1.Parent = v
+            decal2.Parent = v
+            decal3.Parent = v
+            decal4.Parent = v
+            decal5.Parent = v
+            decal6.Parent = v
+            decal1.Face = "Front"
+            decal2.Face = "Top"
+            decal3.Face = "Left"
+            decal4.Face = "Right"
+            decal5.Face = "Bottom"
+            decal6.Face = "Back"
+        end
+        end
+            for i,v in pairs (game.Workspace:GetChildren()) do
+            if v:IsA("Model") then
+            for i,z in pairs (v:GetChildren()) do
+            if z:IsA("Part") then
+                        local decal7 =Instance.new("Decal")
+            local decal8 =Instance.new("Decal")
+            local decal9 =Instance.new("Decal")
+            local decal10 =Instance.new("Decal")
+            local decal11 =Instance.new("Decal")
+            local decal12 =Instance.new("Decal")
+            decal7.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal8.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal9.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal10.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal11.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal12.Texture = "http://www.roblox.com/asset/?id=" ..ID
+            decal7.Parent = z
+            decal8.Parent = z
+            decal9.Parent = z
+            decal10.Parent = z
+            decal11.Parent = z
+            decal12.Parent = z
+            decal7.Face = "Front"
+            decal8.Face = "Top"
+            decal9.Face = "Left"
+            decal10.Face = "Right"
+            decal11.Face = "Bottom"
+            decal12.Face = "Back"
+            end
+            end
+            end
+            end 
+ 
+ 
+if Skybox == true then
+local sky = Instance.new("Sky")
+sky.Parent = game.Lighting
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxDn = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=" ..ID
+end
+ 
+
+  end  
   end
   })
   
   AddButton(Tab1o, {
-     Name = "ThundarZ Hub",
+     Name = "SKYBOX AND DECAL SPAM",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/GaG/Main.lua"))()
+	 if particle == true then
+for i,v in pairs (game.Workspace:GetChildren()) do
+        if v:IsA("Part") then
+    local particle = Instance.new("ParticleEmitter")
+    particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+    particle.Parent = v
+    particle.Rate = 200
+    for i,x in pairs (game.Workspace:GetChildren()) do
+        if x:IsA("Model") then
+            for i,z in pairs (x:GetChildren()) do
+            if z:IsA("Part") then
+                    local particle2 = Instance.new("ParticleEmitter")
+    particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+    particle2.Parent = z
+    particle2.Rate = 200
+                end
+            end
+        end
+        end
+        end
+        end
+end
+    end)
+   end 
   end
   })
   
-  AddButton(Tab2o, {
-     Name = "script 1",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/InkGame"))()
-  end
-  })
   
-  AddButton(Tab2o, {
-     Name = "script 2",
-    Callback = function()
-	loadstring(game:HttpGet("https://pastefy.app/ULaWpxKm/raw"))()  
-  end
-  })
   
-  AddButton(Tab2o, {
-     Name = "key script 2 Subscribe to yeahba channel to get key",
-    Callback = function()
-	
-  end
-  })
+  
   
   
